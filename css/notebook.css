@@ -1,0 +1,54 @@
+/* Position the container */
+#container {
+    position: relative;
+    height: 90vh;
+    padding-top:60px;
+    margin-top:50px;
+    border:solid red;    
+
+}
+/* Resizing and centering the notebook */
+#notebook {
+    position:absolute;
+    background: url("../images/notebookbare.jpg");
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: 850px; /* ratio: 1.5901162791*/
+    height: 535px;
+    border: solid green;
+}
+
+#rightpage {
+    position:absolute;
+    right: 0;
+    width: 422px; /* ratio: 1.5901162791*/
+    height: 533px;
+    border: solid blue;
+}
+#leftpage {
+    position:absolute;
+    left: 0;
+    width: 422px; /* ratio: 1.5901162791*/
+    height: 533px;
+    border: solid yellow;
+}
+
+#headline {
+    position:absolute;
+    border:solid red;
+    width: 850px;
+    height: 60px;
+    margin-top: -60px;
+}
+
+#submit-button {
+    position:absolute;
+   
+    left: 25px;
+    bottom: 50px;
+    height: 40px;
+   
+}
