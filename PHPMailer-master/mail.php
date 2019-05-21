@@ -27,8 +27,8 @@ class mailConnection {
 
         $this->mail->Host = "smtp.gmail.com"; // sets the SMTP server
         $this->mail->Port = 587;                    // set the SMTP port for the GMAIL server
-        $this->mail->Username = "kobi6255@gmail.com"; // SMTP account username
-        $this->mail->Password = "kobi2300";        // SMTP account password
+        $this->mail->Username = "YOUR_USER_NAME"; // SMTP account username
+        $this->mail->Password = "YOUR_PASSWORD";        // SMTP account password
 
         $this->mail->SetFrom('kobi6255@gmail.com', 'קובי דהן');
 
